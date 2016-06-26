@@ -50,6 +50,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Contexto.cs" />
+    <Compile Include="Entidades\Automovil.cs" />
+    <Compile Include="Entidades\Marca.cs" />
     <Compile Include="Entidades\Persona.cs" />
     <Compile Include="Migrations\201606260316513_CreacionInicial.cs" />
     <Compile Include="Migrations\201606260316513_CreacionInicial.Designer.cs">
@@ -62,6 +64,30 @@
     <Compile Include="Migrations\201606260350072_CreacionPersonasPK.cs" />
     <Compile Include="Migrations\201606260350072_CreacionPersonasPK.Designer.cs">
       <DependentUpon>201606260350072_CreacionPersonasPK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201606261510394_CreacionPersonaTestId.cs" />
+    <Compile Include="Migrations\201606261510394_CreacionPersonaTestId.Designer.cs">
+      <DependentUpon>201606261510394_CreacionPersonaTestId.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201606261513184_MPersonaCamposRequeridos.cs" />
+    <Compile Include="Migrations\201606261513184_MPersonaCamposRequeridos.Designer.cs">
+      <DependentUpon>201606261513184_MPersonaCamposRequeridos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201606261735283_MAutosMarcas.cs" />
+    <Compile Include="Migrations\201606261735283_MAutosMarcas.Designer.cs">
+      <DependentUpon>201606261735283_MAutosMarcas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201606261736227_MAutosMarcasCorregido.cs" />
+    <Compile Include="Migrations\201606261736227_MAutosMarcasCorregido.Designer.cs">
+      <DependentUpon>201606261736227_MAutosMarcasCorregido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201606261740070_MAutosPersonasCorregido.cs" />
+    <Compile Include="Migrations\201606261740070_MAutosPersonasCorregido.Designer.cs">
+      <DependentUpon>201606261740070_MAutosPersonasCorregido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201606261747312_MAutosPersonasCorregido2.cs" />
+    <Compile Include="Migrations\201606261747312_MAutosPersonasCorregido2.Designer.cs">
+      <DependentUpon>201606261747312_MAutosPersonasCorregido2.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -82,6 +108,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201606260350072_CreacionPersonasPK.resx">
       <DependentUpon>201606260350072_CreacionPersonasPK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201606261510394_CreacionPersonaTestId.resx">
+      <DependentUpon>201606261510394_CreacionPersonaTestId.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201606261513184_MPersonaCamposRequeridos.resx">
+      <DependentUpon>201606261513184_MPersonaCamposRequeridos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201606261735283_MAutosMarcas.resx">
+      <DependentUpon>201606261735283_MAutosMarcas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201606261736227_MAutosMarcasCorregido.resx">
+      <DependentUpon>201606261736227_MAutosMarcasCorregido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201606261740070_MAutosPersonasCorregido.resx">
+      <DependentUpon>201606261740070_MAutosPersonasCorregido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201606261747312_MAutosPersonasCorregido2.resx">
+      <DependentUpon>201606261747312_MAutosPersonasCorregido2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

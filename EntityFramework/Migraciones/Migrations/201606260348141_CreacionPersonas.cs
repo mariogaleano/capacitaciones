@@ -11,7 +11,7 @@ namespace Migraciones.Migrations
                 "dbo.Persona",
                 c => new
                     {
-                        PersonaId = c.Int(nullable: false),
+                        PersonaId = c.Int(nullable: false,identity:true),
                         Nombre = c.String(maxLength: 120),
                         Apellido = c.String(maxLength: 120),
                         FechaNacimiento = c.DateTime(nullable: false),
