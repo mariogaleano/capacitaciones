@@ -1,0 +1,6 @@
+﻿En la consola de comandos de Nuget
+
+Seleccionar el proyecto como proyecto de inicio
+
+enable-migrations
+add-migration CreacionInicial
